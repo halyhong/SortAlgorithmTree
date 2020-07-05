@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="220dp"
+    android:layout_height="60dp"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="Hello World!"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:onClick="textHelloClicked"/>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:clickable="true"
+        android:onClick="imgClicked"/>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="World Hello!"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:onClick="worldClicked"/>
+
+</LinearLayout>
